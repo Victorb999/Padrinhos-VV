@@ -1,0 +1,130 @@
+{
+  "groomsmen": [
+    {
+      "slug": "lucas-gustavo",
+      "id": "1",
+      "members": [
+        {
+          "name": "Lucas Miranda",
+          "id": "1",
+          "nickName": "Lucas",
+          "image": ""
+        },
+        {
+          "name": "Gustavo Dionísio",
+          "id": "2",
+          "nickName": "Gustavo",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "guilherme-alexandre",
+      "id": "2",
+      "members": [
+        {
+          "name": "Guilherme Falcão",
+          "id": "3",
+          "nickName": "Guilherme",
+          "image": ""
+        },
+        {
+          "name": "Alexandre",
+          "id": "4",
+          "nickName": "Alexandre",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "ingrid-junior",
+      "id": "3",
+      "members": [
+        {
+          "name": "Ingrid Araújo",
+          "id": "5",
+          "nickName": "Ingrid",
+          "image": ""
+        },
+        {
+          "name": "Davidson Junior",
+          "id": "6",
+          "nickName": "Junior",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "vitor-beatriz",
+      "id": "4",
+      "members": [
+        {
+          "name": "Vitor Miranda",
+          "id": "7",
+          "nickName": "Vitor",
+          "image": ""
+        },
+        {
+          "name": "Beatriz",
+          "id": "8",
+          "nickName": "Beatriz",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "ricardo-sabrina",
+      "id": "5",
+      "members": [
+        {
+          "name": "Ricardo Garcias",
+          "id": "9",
+          "nickName": "Vitor",
+          "image": ""
+        },
+        {
+          "name": "Sabrina Rezende",
+          "id": "10",
+          "nickName": "Sabrina",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "ryan",
+      "id": "6",
+      "members": [
+        {
+          "name": "Ryan Rodrigo",
+          "id": "11",
+          "nickName": "Ryan",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "rafael",
+      "id": "7",
+      "members": [
+        {
+          "name": "Rafael Oliveira",
+          "id": "12",
+          "nickName": "Rankuro",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "stefania",
+      "id": "8",
+      "members": [
+        {
+          "name": "Stefania Pereira",
+          "id": "12",
+          "nickName": "Teté",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

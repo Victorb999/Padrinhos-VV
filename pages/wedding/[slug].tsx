@@ -1,8 +1,15 @@
 import { GetServerSideProps } from "next";
 import path from "path";
 import { promises as fs } from "fs";
+import { ParsedUrlQuery } from "querystring";
 
-function Wedding({ groomsmen }: PlayerProps) {
+import { Groomsman } from "../../services/types";
+
+type WeddingProps = {
+  groomsmen: Groomsman;
+};
+
+function Wedding({ groomsmen }: WeddingProps) {
   return <div>{JSON.stringify(groomsmen)}</div>;
 }
 

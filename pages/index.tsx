@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
+import { Groomsmen } from "../services/types";
 
 export default function IndexPage() {
-  const [groomsmen, setGroomsmen] = useState<any[]>();
+  const [groomsmen, setGroomsmen] = useState<Groomsmen[]>();
 
   const _groomsmenData = async () => {
-    // The return value is *not* serialized
-    // You can return Date, Map, Set, etc.
     const response = await fetch("/api/staticData", {
       method: "GET"
     });
@@ -21,11 +20,12 @@ export default function IndexPage() {
 
   return (
     <div className="p-4">
-      <h1 className="shadow-md flex items-center space-x-4 p-4">
-        Next.js + TypeScript + Tailwind Css
-      </h1>
       {groomsmen?.map((groomsman: any) => {
-        return <div>{groomsman.slug}</div>;
+        return (
+          <div className="shadow-md flex flex-col items-center space-x-4 p-4">
+            {groomsman.slug}
+          </div>
+        );
       })}
     </div>
   );

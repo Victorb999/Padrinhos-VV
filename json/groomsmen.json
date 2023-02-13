@@ -79,7 +79,7 @@
         {
           "name": "Ricardo Garcias",
           "id": "9",
-          "nickName": "Vitor",
+          "nickName": "Ricardo",
           "image": ""
         },
         {
@@ -122,6 +122,114 @@
           "name": "Stefania Pereira",
           "id": "12",
           "nickName": "Teté",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "guilherme-brenda",
+      "id": "9",
+      "members": [
+        {
+          "name": "Guilherme",
+          "id": "13",
+          "nickName": "Guilherme",
+          "image": ""
+        },
+        {
+          "name": "Brenda",
+          "id": "14",
+          "nickName": "Brenda",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "lucas-janaina",
+      "id": "10",
+      "members": [
+        {
+          "name": "Lucas",
+          "id": "15",
+          "nickName": "Lucas",
+          "image": ""
+        },
+        {
+          "name": "Janaína",
+          "id": "16",
+          "nickName": "Janaína",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "matheus-bianca",
+      "id": "11",
+      "members": [
+        {
+          "name": "Matheus França",
+          "id": "17",
+          "nickName": "Matheus",
+          "image": ""
+        },
+        {
+          "name": "Bianca",
+          "id": "18",
+          "nickName": "Bianca",
+          "image": ""
+        }
+      ]
+    },
+     {
+      "slug": "jessica-teia",
+      "id": "12",
+      "members": [
+        {
+          "name": "Jéssica",
+          "id": "19",
+          "nickName": "Jéssica",
+          "image": ""
+        },
+        {
+          "name": "Ronildo",
+          "id": "20",
+          "nickName": "Téia",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "carlos",
+      "id": "13",
+      "members": [
+        {
+          "name": "Carlos",
+          "id": "21",
+          "nickName": "Carlão",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "rafaelle",
+      "id": "14",
+      "members": [
+        {
+          "name": "Rafaelle",
+          "id": "21",
+          "nickName": "Rafaelle",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "slug": "daniel",
+      "id": "15",
+      "members": [
+        {
+          "name": "Daniel",
+          "id": "22",
+          "nickName": "Daniel",
           "image": ""
         }
       ]

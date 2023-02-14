@@ -21,13 +21,17 @@ export default async function Page({ params }: PageProps) {
   const groomsmenFiltered = groomsmen[0]
 
   return (
-    <div className="p-4 flex">
-      <div>{groomsmenFiltered.slug}</div>
+    <div className="p-4 flex flex-col">
+      <h1 className="font-serif font-bold text-dark tracking-wider text-xl">
+        {groomsmenFiltered.slug}
+      </h1>
       {groomsmenFiltered?.members?.map((member: Member) => {
         return (
           <div key={member.id}>
             <img src={member.image} />
-            <h1>{member.nickName}</h1>
+            <h1 className="font-cursive font-bold text-dark tracking-wider text-xl">
+              {member.nickName}
+            </h1>
           </div>
         )
       })}

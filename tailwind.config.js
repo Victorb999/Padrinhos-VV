@@ -9,21 +9,16 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      blue: '#1fb6ff',
       purple: '#6667AF',
-      pink: '#ff49db',
-      orange: '#ff7849',
-      green: '#13ce66',
-      yellow: '#ffc82c',
+      'purple-light': '#B5A5D1',
       dark: '#0F1923',
-      gray: '#8492a6',
       'gray-light': '#d3dce6',
       body: '#ECE8E1',
     },
     fontFamily: {
       sans: ['Oswald', 'sans-serif'],
       serif: ['Marcellus', 'serif'],
-      cursive: ['Ms Madi'],
+      cursive: ['"Ms Madi"', 'Cursive'],
     },
     extend: {
       spacing: {

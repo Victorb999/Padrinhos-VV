@@ -5,11 +5,11 @@ export default async function IndexPage() {
   const data = await getPadrinhos()
 
   return (
-    <div className="p-4">
+    <div className="flex p-4">
       {data?.groomsmen.map((groomsman: Groomsman) => {
         return (
           <div
-            className="shadow-md flex flex-col items-center space-x-4 p-4"
+            className="shadow-md flex items-center p-4 m-4 hover:bg-purple"
             key={groomsman.id}
           >
             {groomsman.slug}

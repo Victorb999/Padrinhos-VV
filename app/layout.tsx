@@ -10,7 +10,9 @@ export default function RootLayout({
       <head />
 
       <body>
-        <h1>PADRINHOS</h1>
+        <div className="flex bg-purple h-14 p-4 items-center">
+          <h1>PADRINHOS</h1>
+        </div>
 
         {children}
       </body>

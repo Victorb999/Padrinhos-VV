@@ -18,6 +18,10 @@ export default async function Page({ params }: PageProps) {
     (groom: Groomsman) => groom.slug === params.slug
   )
 
+  if (groomsmen.length === 0) {
+    return <div>Padrinho não encontrado</div>
+  }
+
   const groomsmenFiltered = groomsmen[0]
 
   return (

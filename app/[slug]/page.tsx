@@ -25,16 +25,20 @@ export default async function Page({ params }: PageProps) {
       <h1 className="font-serif font-bold text-dark tracking-wider text-xl">
         {groomsmenFiltered.slug}
       </h1>
-      {groomsmenFiltered?.members?.map((member: Member) => {
-        return (
-          <div key={member.id}>
-            <img src={member.image} />
-            <h1 className="font-cursive font-bold text-dark tracking-wider text-xl">
-              {member.nickName}
-            </h1>
-          </div>
-        )
-      })}
+      <div className="p-4 flex flex-row">
+        {groomsmenFiltered?.members?.map((member: Member) => {
+          return (
+            <div key={member.id} className="p-4">
+              <img
+                src={`https://ui-avatars.com/api/?name=${member.name}&background=0F1923&color=B5A5D1&rounded=true&format=svg`}
+              />
+              <h1 className="font-cursive font-bold text-dark tracking-wider text-xl">
+                {member.nickName}
+              </h1>
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }

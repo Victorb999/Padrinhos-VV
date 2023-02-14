@@ -9,7 +9,7 @@ export default function RootLayout({
     <html>
       <head />
 
-      <body>
+      <body className="bg-body text-dark">
         <div className="flex bg-purple h-14 p-4 items-center">
           <h1>PADRINHOS</h1>
         </div>

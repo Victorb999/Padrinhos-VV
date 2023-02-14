@@ -15,10 +15,10 @@ module.exports = {
       orange: '#ff7849',
       green: '#13ce66',
       yellow: '#ffc82c',
-      'gray-dark': '#0F1923',
+      dark: '#0F1923',
       gray: '#8492a6',
       'gray-light': '#d3dce6',
-      white: '#ECE8E1',
+      body: '#ECE8E1',
     },
     fontFamily: {
       sans: ['Oswald', 'sans-serif'],

@@ -10,7 +10,7 @@ export const Card = ({ name, image }: CardProps): JSX.Element => {
       className="
       flex flex-col justify-center items-center 
       gap-4 p-2 m-2 
-      rounded border-4 border-purple
+      rounded border-4 border-purple-light shadow-lg shadow-black
       bg-gradient-to-br	 from-gray-light to-purple-light
       w-32 h-40
       "

@@ -14,6 +14,8 @@ module.exports = {
       dark: '#0F1923',
       'gray-light': '#d3dce6',
       body: '#ECE8E1',
+      black: '#000',
+      white: '#fff',
     },
     fontFamily: {
       sans: ['Oswald', 'sans-serif'],

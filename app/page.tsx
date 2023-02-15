@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Groomsman } from '../../services/types'
+import { Groomsman } from '../services/types'
 import { getPadrinhos } from '../services/getPadrinhos'
 
 export default async function IndexPage() {

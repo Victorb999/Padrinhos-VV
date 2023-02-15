@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import 'styles/globals.css'
 
 export default function RootLayout({
@@ -11,7 +12,7 @@ export default function RootLayout({
         <div className="flex bg-purple p-4 items-center">
           <img src="/logo-light.svg" className="h-8 mx-4" />
           <h1 className="font-serif font-bold text-body tracking-wider text-xl">
-            Padrinhos
+            <Link href="/">Padrinhos</Link>
           </h1>
         </div>
 

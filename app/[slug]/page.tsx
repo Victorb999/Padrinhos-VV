@@ -20,7 +20,13 @@ export default async function Page({ params }: PageProps) {
   )
 
   if (groomsmen.length === 0) {
-    return <div>Padrinho não encontrado</div>
+    return (
+      <div className="p-4 w-full flex justify-center">
+        <h1 className="text-xl font-serif text-dark">
+          Ops, não encontramos esse padrinho.
+        </h1>
+      </div>
+    )
   }
 
   const groomsmenFiltered = groomsmen[0]

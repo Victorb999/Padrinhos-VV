@@ -12,9 +12,12 @@ module.exports = {
       purple: '#6667AF',
       'purple-light': '#B5A5D1',
       dark: '#0F1923',
-      'gray-light': '#d3dce6',
+      'purple-500': '#7D5677',
+      'purple-600': '#d3dce6',
       body: '#ECE8E1',
       black: '#000',
+      'gray-2': '#262323',
+      'gray-3': '#1E1E1E',
       white: '#fff',
     },
     fontFamily: {
@@ -30,6 +33,7 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem',
       },
+      animate: ['hover'],
     },
   },
   variants: {

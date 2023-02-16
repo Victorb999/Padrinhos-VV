@@ -7,7 +7,7 @@ export default async function IndexPage() {
 
   return (
     <>
-      <h1 className="font-serif font-bold text-dark tracking-wider text-4xl mt-4">
+      <h1 className="font-serif font-bold text-gray tracking-wider text-4xl mt-4">
         Padrinhos
       </h1>
       <div className="flex flex-wrap gap-2 flex justify-center items-center mt-4">
@@ -18,8 +18,8 @@ export default async function IndexPage() {
               className="
             flex flex-col justify-center items-center 
             gap-4 p-2 m-2 
-            rounded-lg border border-purple-light shadow-lg shadow-black
-            bg-gradient-to-br	from-purple-600 to-purple-light
+            rounded-lg shadow-lg shadow-black
+            bg-gradient-to-br	from-purple-600 to-purple-700
             w-36 h-36 
             hover:opacity-75 transition
             transform hover:-translate-y-1 transition duration-300
@@ -27,14 +27,19 @@ export default async function IndexPage() {
               key={groomsman.id}
             >
               <div className="flex flex-col justify-center items-center">
-                {groomsman.members?.map((member: Member) => {
+                {groomsman.members?.map((member: Member, index) => {
                   return (
-                    <span
+                    <div
                       key={member.id}
-                      className="font-cursive font-bold text-gray-2 tracking-wider text-3xl"
+                      className="flex flex-col justify-center items-center"
                     >
-                      {member.nickName}
-                    </span>
+                      <span className="font-cursive font-bold text-gray tracking-wider text-3xl">
+                        {member.nickName}
+                      </span>
+                      <span className="font-cursive font-bold text-gray tracking-wider text-2xl">
+                        {groomsman.members.length > 1 && index === 0 && ' &'}
+                      </span>
+                    </div>
                   )
                 })}
               </div>

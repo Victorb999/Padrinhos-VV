@@ -60,11 +60,12 @@ export const CardAnimated = ({ name, image }: CardProps): JSX.Element => {
     rgba(255 255 255 / ${sheenOpacity}) ${sheenPosition}%,
     transparent)`
 
+  const handleMouseMove = (e: MouseEvent) => {
+    animate(mouseX, e.clientX)
+    animate(mouseY, e.clientY)
+  }
+
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      animate(mouseX, e.clientX)
-      animate(mouseY, e.clientY)
-    }
     if (typeof window === 'undefined') return
     window.addEventListener('mousemove', handleMouseMove)
     return () => {
@@ -73,7 +74,7 @@ export const CardAnimated = ({ name, image }: CardProps): JSX.Element => {
   }, [])
 
   return (
-    <div className="relative w-96 h-96 overflow-hidden perspective-1000 m-4 ">
+    <div className="relative w-full h-full overflow-hidden perspective-1000">
       <motion.div
         className="w-full h-full
         flex flex flex-col justify-center items-center 
@@ -86,6 +87,7 @@ export const CardAnimated = ({ name, image }: CardProps): JSX.Element => {
             backdrop-filter-blur-4 backdrop-brightness-120           
             border-4 border-purple-light shadow-2xl shadow-black"
           style={{ backgroundImage: sheenGradient }}
+          onHoverStart={(e) => handleMouseMove(e)}
         >
           <Card name={name} image={image} />
         </motion.div>

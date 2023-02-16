@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className="bg-body text-dark flex flex-col items-center justify-center w-full">
+      <body className="bg-body text-dark">
         <div className="flex bg-purple p-4 items-center justify-center w-full">
           <Link href="/">
             <img

@@ -65,11 +65,19 @@ export const CardAnimated = ({ name, image }: CardProps): JSX.Element => {
     animate(mouseY, e.clientY)
   }
 
+  const handleTouchMove = (e: TouchEvent) => {
+    const { pageX, pageY } = e.touches[0]
+    animate(mouseX, pageX)
+    animate(mouseY, pageY)
+  }
+
   useEffect(() => {
     if (typeof window === 'undefined') return
     window.addEventListener('mousemove', handleMouseMove)
+    window.addEventListener('touchmove', handleMouseMove)
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove)
+      window.removeEventListener('mousemove', handleTouchMove)
+      window.removeEventListener('touchmove', handleTouchMove)
     }
   }, [])
 
@@ -87,7 +95,6 @@ export const CardAnimated = ({ name, image }: CardProps): JSX.Element => {
             backdrop-filter-blur-4 backdrop-brightness-120           
             border-4 border-purple-light shadow-2xl shadow-black"
           style={{ backgroundImage: sheenGradient }}
-          onHoverStart={(e) => handleMouseMove(e)}
         >
           <Card name={name} image={image} />
         </motion.div>

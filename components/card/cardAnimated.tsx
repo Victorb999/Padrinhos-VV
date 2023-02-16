@@ -67,7 +67,7 @@ export const CardAnimated = ({ name, image }: CardProps): JSX.Element => {
 
   const handleTouchMove = (e: TouchEvent<HTMLDivElement>) => {
     const { pageX, pageY } = e.touches[0]
-    console.log('dsfa', mouseX, e.touches[0])
+    console.log('é aqui', mouseX, pageX)
     animate(mouseX, pageX)
     animate(mouseY, pageY)
   }
@@ -77,13 +77,16 @@ export const CardAnimated = ({ name, image }: CardProps): JSX.Element => {
     window.addEventListener('mousemove', handleMouseMove)
     //window.addEventListener('touchmove', handleTouchMove)
     return () => {
-      window.removeEventListener('mousemove', handleTouchMove)
+      window.removeEventListener('mousemove', handleMouseMove)
       //window.removeEventListener('touchmove', handleTouchMove)
     }
   }, [])
 
   return (
-    <div className="relative w-full h-full overflow-hidden perspective-1000">
+    <div
+      className="relative w-full h-full overflow-hidden perspective-1000"
+      onTouchMove={(e) => handleTouchMove(e)}
+    >
       <motion.div
         className="w-full h-full
         flex flex flex-col justify-center items-center 
@@ -96,7 +99,6 @@ export const CardAnimated = ({ name, image }: CardProps): JSX.Element => {
             backdrop-filter-blur-4 backdrop-brightness-120           
             border-4 border-purple-light shadow-2xl shadow-black"
           style={{ backgroundImage: sheenGradient }}
-          onTouchMove={(e) => handleTouchMove(e)}
         >
           <Card name={name} image={image} />
         </motion.div>

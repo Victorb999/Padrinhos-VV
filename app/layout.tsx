@@ -18,9 +18,6 @@ export default function RootLayout({
             />
           </Link>
         </div>
-        <h1 className="font-serif font-bold text-dark tracking-wider text-4xl mt-4">
-          Padrinhos
-        </h1>
         {children}
       </body>
     </html>

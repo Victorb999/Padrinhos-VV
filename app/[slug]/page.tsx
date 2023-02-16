@@ -1,7 +1,7 @@
 import path from 'path'
 import { promises as fs } from 'fs'
 import { Groomsman, Member } from '../../services/types'
-import { Card } from '../../components/card/card'
+import { CardAnimated } from '../../components/card/cardAnimated'
 interface PageProps {
   params: { slug: string }
 }
@@ -32,13 +32,16 @@ export default async function Page({ params }: PageProps) {
   const groomsmenFiltered = groomsmen[0]
 
   return (
-    <div className="p-4 flex flex-col justify-center items-center">
+    <div className="p-4 flex flex-col justify-center items-center bg-gray-3 w-full">
+      <h1 className="font-serif font-bold text-body tracking-wider text-4xl mt-4">
+        Padrinhos
+      </h1>
       <div className="p-4 flex flex-row justify-center">
         {groomsmenFiltered?.members?.map((member: Member) => {
           return (
-            <Card
+            <CardAnimated
               key={member.id}
-              image={`https://ui-avatars.com/api/?name=${member.name}&background=0F1923&color=B5A5D1&rounded=true&format=svg`}
+              image={`https://ui-avatars.com/api/?name=${member.name}&background=B5A5D1&color=6667AF&rounded=true&format=svg`}
               name={member.nickName}
             />
           )

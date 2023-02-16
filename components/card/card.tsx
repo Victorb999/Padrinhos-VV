@@ -5,18 +5,31 @@ interface CardProps {
 }
 
 export const Card = ({ name, image }: CardProps): JSX.Element => {
+  // return (
+  //   <div
+  //     className="
+  //     flex flex-col justify-center items-center
+  //     gap-4 p-2 m-2
+  //     rounded border-4 border-purple-500 shadow-lg shadow-black
+  //     bg-gradient-to-br	 from-purple-600 to-purple-light
+  //     w-32 h-40
+  //     "
+  //   >
+  //     <img src={image} />
+  //     <h1 className="font-cursive font-bold text-dark tracking-wider text-xl">
+  //       {name}
+  //     </h1>
+  //   </div>
+  // )
   return (
     <div
-      className="
-      flex flex-col justify-center items-center 
-      gap-4 p-2 m-2 
-      rounded border-4 border-purple-500 shadow-lg shadow-black
-      bg-gradient-to-br	 from-purple-600 to-purple-light
-      w-32 h-40
-      "
+      className="w-full h-full
+        flex flex-col justify-center items-center gap-4
+        border-opacity-20 rounded-lg p-4 text-center text-white text-opacity-70"
     >
       <img src={image} />
-      <h1 className="font-cursive font-bold text-dark tracking-wider text-xl">
+
+      <h1 className="font-cursive font-bold text-white tracking-wider text-4xl">
         {name}
       </h1>
     </div>

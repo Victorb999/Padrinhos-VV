@@ -1,5 +1,4 @@
 'use client'
-import '../../styles/atropos.css'
 
 import Atropos from 'atropos/react'
 

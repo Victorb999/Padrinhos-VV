@@ -32,7 +32,7 @@ export default async function Page({ params }: PageProps) {
   const groomsmenFiltered = groomsmen[0]
 
   return (
-    <div className="flex flex-col justify-center items-center bg-gray-3 w-full p-4">
+    <div className="flex flex-col justify-center items-center w-full p-4">
       <h1 className="font-serif font-bold text-body tracking-wider text-4xl mt-4">
         Padrinhos
       </h1>
@@ -43,10 +43,12 @@ export default async function Page({ params }: PageProps) {
             <CardParallax key={member.id} className={'w-64 h-72'}>
               <div
                 className="w-full h-full
-        flex flex-col justify-center items-center gap-4
-        border-opacity-20 rounded-lg p-4 text-center text-white text-opacity-70"
+                flex flex-col justify-center items-center gap-4
+                bg-gray-3 border-4 border-purple-light
+                rounded-lg p-4 text-center text-white text-opacity-70"
               >
                 <img
+                  alt={member.name}
                   src={`https://ui-avatars.com/api/?name=${member.name}&background=B5A5D1&color=6667AF&rounded=true&format=svg`}
                 />
 

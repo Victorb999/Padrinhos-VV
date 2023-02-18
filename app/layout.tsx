@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import 'styles/globals.css'
+import 'styles/atropos.css'
 
 export default function RootLayout({
   children,

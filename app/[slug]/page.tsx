@@ -1,7 +1,7 @@
 import path from 'path'
 import { promises as fs } from 'fs'
 import { Groomsman, Member } from '../../services/types'
-import { CardAnimated } from '../../components/card/cardAnimated'
+import CardParallax from '../../components/card/cardParallax'
 interface PageProps {
   params: { slug: string }
 }
@@ -36,14 +36,25 @@ export default async function Page({ params }: PageProps) {
       <h1 className="font-serif font-bold text-body tracking-wider text-4xl mt-4">
         Padrinhos
       </h1>
+
       <div className="flex sm:flex-row flex-col justify-center  gap-16  p-4">
         {groomsmenFiltered?.members?.map((member: Member) => {
           return (
-            <CardAnimated
-              key={member.id}
-              image={`https://ui-avatars.com/api/?name=${member.name}&background=B5A5D1&color=6667AF&rounded=true&format=svg`}
-              name={member.nickName}
-            />
+            <CardParallax key={member.id} className={'w-64 h-72'}>
+              <div
+                className="w-full h-full
+        flex flex-col justify-center items-center gap-4
+        border-opacity-20 rounded-lg p-4 text-center text-white text-opacity-70"
+              >
+                <img
+                  src={`https://ui-avatars.com/api/?name=${member.name}&background=B5A5D1&color=6667AF&rounded=true&format=svg`}
+                />
+
+                <h1 className="font-cursive font-bold text-white tracking-wider text-4xl">
+                  {member.name}
+                </h1>
+              </div>
+            </CardParallax>
           )
         })}
       </div>

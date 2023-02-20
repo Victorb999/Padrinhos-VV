@@ -49,7 +49,7 @@ export default async function Page({ params }: PageProps) {
               >
                 <img
                   alt={member.name}
-                  src={`https://ui-avatars.com/api/?name=${member.name}&background=B5A5D1&color=6667AF&rounded=true&format=svg`}
+                  src={`/padrinhos/${member.id}.jpg`}
                 />
 
                 <h1 className="font-cursive font-bold text-white tracking-wider text-4xl">

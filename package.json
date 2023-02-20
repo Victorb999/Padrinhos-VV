@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "post-update": "yarn upgrade --latest",
-    "lint": "eslint src --fix"
+    "lint": "eslint app --fix"
   },
   "dependencies": {
     "@teleporthq/teleport-code-generators": "0.6.0",
@@ -35,6 +35,5 @@
     "next.js ",
     "typescript",
     "tailwind"
-  ],
-  "description": null
+  ]
 }

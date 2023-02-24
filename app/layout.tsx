@@ -9,8 +9,8 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className="bg-body text-dark">
-        <div className="flex bg-purple p-4 items-center justify-center w-full">
+      <body className="bg-gradient-to-r from-purple to-purple-light text-dark">
+        <div className="flex bg-dark p-4 items-center justify-center w-full shadow-md shadow-black">
           <Link href="/">
             <img
               src="/logo-light.svg"

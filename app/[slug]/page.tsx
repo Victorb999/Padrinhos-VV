@@ -34,7 +34,7 @@ export default async function Page({ params }: PageProps) {
 
   return (
     <div className="flex flex-col justify-center items-center w-full p-4">
-      <h1 className="font-serif font-bold text-body tracking-wider text-2xl mt-4">
+      <h1 className="font-serif  text-center font-bold text-dark tracking-wider text-2xl mt-4">
         Obrigado por aceitar esse convite tão especial! :)
       </h1>
 

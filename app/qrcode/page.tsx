@@ -1,6 +1,6 @@
 import QRCode from 'react-qr-code'
 import { getPadrinhos } from '../../services/getPadrinhos'
-import { Groomsman, Member } from '../../services/types'
+import { Groomsman } from '../../services/types'
 import Link from 'next/link'
 
 export default async function Page() {

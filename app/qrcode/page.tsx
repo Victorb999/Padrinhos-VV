@@ -17,7 +17,7 @@ export default async function Page() {
               size={400}
               style={{ border: '5px solid #fff' }}
               value={`https://padrinhos-vv.vercel.app/${groomsman.slug}`}
-              viewBox={`0 0 300 400`}
+              viewBox={'0 0 300 400'}
             />
             <Link
               href={`/${groomsman.slug}`}

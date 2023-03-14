@@ -1,5 +1,5 @@
-import path from 'path';
-import { promises as fs } from 'fs';
+import path from 'path'
+import { promises as fs } from 'fs'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 export default async function handler(_req: NextApiRequest, res: NextApiResponse) {

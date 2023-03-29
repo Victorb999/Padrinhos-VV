@@ -8,13 +8,15 @@
           "name": "Lucas Miranda",
           "id": "1",
           "nickName": "Lucas",
-          "image": ""
+          "image": "",
+          "sex": "M"
         },
         {
           "name": "Gustavo Dionísio",
           "id": "2",
           "nickName": "Gustavo",
-          "image": ""
+          "image": "",
+          "sex": "M"
         }
       ]
     },
@@ -26,13 +28,15 @@
           "name": "Guilherme Falcão",
           "id": "3",
           "nickName": "Guilherme",
-          "image": ""
+          "image": "",
+          "sex": "M"
         },
         {
           "name": "Alexandre",
           "id": "4",
           "nickName": "Alexandre",
-          "image": ""
+          "image": "",
+          "sex": "X"
         }
       ]
     },
@@ -44,13 +48,15 @@
           "name": "Ingrid Araújo",
           "id": "6",
           "nickName": "Ingrid",
-          "image": ""
+          "image": "",
+          "sex": "F"
         },
         {
           "name": "Davidson Junior",
           "id": "5",
           "nickName": "Junior",
-          "image": ""
+          "image": "",
+          "sex": "M"
         }
       ]
     },
@@ -62,13 +68,15 @@
           "name": "Vitor Miranda",
           "id": "7",
           "nickName": "Vitor",
-          "image": ""
+          "image": "",
+          "sex": "M"
         },
         {
           "name": "Beatriz",
           "id": "8",
           "nickName": "Beatriz",
-          "image": ""
+          "image": "",
+          "sex": "F"
         }
       ]
     },
@@ -80,13 +88,15 @@
           "name": "Ricardo Garcias",
           "id": "9",
           "nickName": "Ricardo",
-          "image": ""
+          "image": "",
+          "sex": "M"
         },
         {
           "name": "Sabrina Rezende",
           "id": "10",
           "nickName": "Sabrina",
-          "image": ""
+          "image": "",
+          "sex": "F"
         }
       ]
     },
@@ -98,7 +108,8 @@
           "name": "Ryan Rodrigo",
           "id": "11",
           "nickName": "Ryan",
-          "image": ""
+          "image": "",
+          "sex": "M"
         }
       ]
     },
@@ -110,7 +121,8 @@
           "name": "Rafael Oliveira",
           "id": "12",
           "nickName": "Rankuro",
-          "image": ""
+          "image": "",
+          "sex": "M"
         }
       ]
     },
@@ -122,7 +134,8 @@
           "name": "Stefania Pereira",
           "id": "13",
           "nickName": "Teté",
-          "image": ""
+          "image": "",
+          "sex": "F"
         }
       ]
     },
@@ -134,13 +147,15 @@
           "name": "Guilherme",
           "id": "14",
           "nickName": "Guilherme",
-          "image": ""
+          "image": "",
+          "sex": "M"
         },
         {
           "name": "Brenda",
           "id": "15",
           "nickName": "Brenda",
-          "image": ""
+          "image": "",
+          "sex": "F"
         }
       ]
     },
@@ -152,13 +167,15 @@
           "name": "Lucas",
           "id": "16",
           "nickName": "Lucas",
-          "image": ""
+          "image": "",
+          "sex": "M"
         },
         {
           "name": "Janaína",
           "id": "17",
           "nickName": "Janaína",
-          "image": ""
+          "image": "",
+          "sex": "F"
         }
       ]
     },
@@ -170,13 +187,15 @@
           "name": "Matheus França",
           "id": "18",
           "nickName": "Matheus",
-          "image": ""
+          "image": "",
+          "sex": "M"
         },
         {
           "name": "Bianca",
           "id": "19",
           "nickName": "Bianca",
-          "image": ""
+          "image": "",
+          "sex": "F"
         }
       ]
     },
@@ -188,13 +207,15 @@
           "name": "Jéssica",
           "id": "20",
           "nickName": "Jéssica",
-          "image": ""
+          "image": "",
+          "sex": "F"
         },
         {
           "name": "Ronildo",
           "id": "21",
           "nickName": "Téia",
-          "image": ""
+          "image": "",
+          "sex": "M"
         }
       ]
     },
@@ -206,7 +227,8 @@
           "name": "Carlos",
           "id": "22",
           "nickName": "Carlão",
-          "image": ""
+          "image": "",
+          "sex": "M"
         }
       ]
     },
@@ -218,7 +240,8 @@
           "name": "Rafaelle",
           "id": "23",
           "nickName": "Rafaelle",
-          "image": ""
+          "image": "",
+          "sex": "F"
         }
       ]
     },
@@ -230,7 +253,8 @@
           "name": "Daniel",
           "id": "24",
           "nickName": "Daniel",
-          "image": ""
+          "image": "",
+          "sex": "M"
         }
       ]
     },
@@ -242,7 +266,8 @@
           "name": "Mayara Isis",
           "id": "25",
           "nickName": "Mayara",
-          "image": ""
+          "image": "",
+          "sex": "F"
         }
       ]
     }

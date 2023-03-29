@@ -3,6 +3,7 @@ export interface Member {
   id: string;
   nickName: string;
   image: string;
+  sex: string;
 }
 
 export interface Groomsman {

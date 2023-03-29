@@ -13,7 +13,7 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      purple: '#6667AF',
+      purple: '#6667AB',
       'purple-light': '#B5A5D1',
       dark: '#0F1923',
       'purple-400': '#b08fc9',
@@ -26,6 +26,10 @@ module.exports = {
       'gray-2': '#262323',
       'gray-3': '#1E1E1E',
       white: '#fff',
+      'lavanda-1': '#AD96DC',
+      'lavanda-2': '#a66fb5',
+      'lavanda-3': '#af7dbc',
+      'lavanda-4': '#caa9d3'
     },
     fontFamily: {
       sans: ['Oswald', 'sans-serif'],

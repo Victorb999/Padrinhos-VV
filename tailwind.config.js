@@ -26,10 +26,10 @@ module.exports = {
       'gray-2': '#262323',
       'gray-3': '#1E1E1E',
       white: '#fff',
-      'lavanda-1': '#AD96DC',
-      'lavanda-2': '#a66fb5',
-      'lavanda-3': '#af7dbc',
-      'lavanda-4': '#caa9d3'
+      'lavander-1': '#AD96DC',
+      'lavander-2': '#a66fb5',
+      'lavander-3': '#af7dbc',
+      'lavander-4': '#caa9d3'
     },
     fontFamily: {
       sans: ['Oswald', 'sans-serif'],

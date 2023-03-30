@@ -18,15 +18,15 @@ export default function ManualF() {
       <div className="w-full flex justify-center flex-col items-center">
         <img src={'/assets/madrinhas-1.jpg'} className="w-64 md:w-128 rounded"/>
         <h1 className="text-center font-serif font-bold text-white tracking-wider text-xl my-4">
-          Palheta
+          Paleta
         </h1>
         <div className="flex flex-row flex-wrap justify-center mt-4">
-          <div className="md:h-24 md:w-24 h-16 w-16 text-purple bg-purple">{'lavanda'}</div>
-          <div className="md:h-24 md:w-24 h-16 w-16 text-lavanda-1 bg-lavanda-1">{'lavanda'}</div>
-          <div className="md:h-24 md:w-24 h-16 w-16 text-lavanda-2 bg-lavanda-2">{'lavanda'}</div>
-          <div className="md:h-24 md:w-24 h-16 w-16 text-lavanda-3 bg-lavanda-3">{'lavanda'}</div>
-          <div className="md:h-24 md:w-24 h-16 w-16 text-purple-400 bg-purple-400">{'lavanda'}</div>
-          <div className="md:h-24 md:w-24 h-16 w-16 text-lavanda-4 bg-lavanda-4">{'lavanda'}</div>
+          <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-1.svg'} />
+          <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-2.svg'} /> 
+          <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-3.svg'} />
+          <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-4.svg'} />
+          <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-5.svg'} />
+          <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-6.svg'} />
         </div>
       </div>
     </div>

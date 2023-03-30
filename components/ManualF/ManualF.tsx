@@ -15,18 +15,18 @@ export default function ManualF() {
         Escolhemos a cor Lavanda e optamos por definir uma paleta com muito 
         carinho para que você escolha o seu tom preferido e arrase!
       </p>
-      <div className="w-full md:flex md:justify-center md:flex-col md:items-center">
+      <div className="w-full flex justify-center flex-col items-center">
         <img src={'/assets/madrinhas-1.jpg'} className="w-64 md:w-128 rounded"/>
         <h1 className="text-center font-serif font-bold text-white tracking-wider text-xl my-4">
           Palheta
         </h1>
         <div className="flex flex-row flex-wrap justify-center mt-4">
-          <div className="md:h-24 md:w-24 h-16 w-16 bg-purple"></div>
-          <div className="md:h-24 md:w-24 h-16 w-16 bg-lavanda-1"></div>
-          <div className="md:h-24 md:w-24 h-16 w-16 bg-lavanda-2"></div>
-          <div className="md:h-24 md:w-24 h-16 w-16 bg-lavanda-3"></div>
-          <div className="md:h-24 md:w-24 h-16 w-16 bg-purple-400"></div>
-          <div className="md:h-24 md:w-24 h-16 w-16 bg-lavanda-4"></div>
+          <div className="md:h-24 md:w-24 h-16 w-16 text-purple bg-purple">{'lavanda'}</div>
+          <div className="md:h-24 md:w-24 h-16 w-16 text-lavanda-1 bg-lavanda-1">{'lavanda'}</div>
+          <div className="md:h-24 md:w-24 h-16 w-16 text-lavanda-2 bg-lavanda-2">{'lavanda'}</div>
+          <div className="md:h-24 md:w-24 h-16 w-16 text-lavanda-3 bg-lavanda-3">{'lavanda'}</div>
+          <div className="md:h-24 md:w-24 h-16 w-16 text-purple-400 bg-purple-400">{'lavanda'}</div>
+          <div className="md:h-24 md:w-24 h-16 w-16 text-lavanda-4 bg-lavanda-4">{'lavanda'}</div>
         </div>
       </div>
     </div>

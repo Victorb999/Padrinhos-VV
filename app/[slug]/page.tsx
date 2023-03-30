@@ -7,6 +7,7 @@ import CardParallax from '../../components/card/cardParallax'
 import ManualF from '../../components/ManualF/ManualF'
 import ManualM from '../../components/ManualM/ManualM'
 import SaveDate from '../../components/SaveDate/SaveDate'
+import FinalMessage from '../../components/FinalMessage/FinalMessage'
 interface PageProps {
   params: { slug: string }
 }
@@ -71,18 +72,18 @@ export default async function Page({ params }: PageProps) {
         <SaveDate />
       </div>
 
-      <div className="flex md:flex-row flex-col justify-center gap-16 p-4">
+      <div className="flex md:flex-row flex-col gap-16 justify-center p-4">
         {groomsmenFiltered?.members?.map((member: Member) => {
           if(member.sex === 'F'){
             return (
-              <div key={member.sex+ member.id}>
+              <div key={member.sex+ member.id} className="md:w-1/2">
                 <ManualF />
               </div>
             )
           }
           if(member.sex === 'M'){
             return (
-              <div key={member.sex+ member.id}>
+              <div key={member.sex+ member.id} className="md:w-1/2">
                 <ManualM />
               </div>
             )
@@ -90,6 +91,11 @@ export default async function Page({ params }: PageProps) {
           return (<></>)
         })}
       </div>
+
+      <div className="flex flex-col justify-center gap-16 p-4">
+        <FinalMessage />
+      </div>
+
     </div>
   )
 }

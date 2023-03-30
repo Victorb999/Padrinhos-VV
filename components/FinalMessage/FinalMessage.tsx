@@ -1,24 +1,27 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/react-in-jsx-scope */
-export default function ManualM() {
+export default function FinalMessage() {
   return (
     <div className="w-full md:p-12">
       <h1 className="text-center font-cursive font-bold text-white tracking-wider text-3xl mb-2">
-      Manual do padrinho
+      Para o grande dia!
       </h1>
       <p className="font-serif font-bold text-dark tracking-wider">
-        Gostaríamos que usasse terno preto com camisa branca. 
-        Quanto a gravata que tal combinar com o vestido da madrinha?!   
+      ⏱️ Chegue com 30 minutos de antecedência   
       </p>
       <p className="font-serif font-bold text-dark tracking-wider">
-        Pensando nisso, escolhemos uma pra você!
+      📷 Tire muitas fotos e nos ajude a eternizar o momento
       </p>
       <p className="font-serif font-bold text-dark tracking-wider mb-4">
-        Espero que goste do presente!
+      Divirta-se muito!
       </p>
-      <div className="w-full md:flex md:justify-center md:flex-col md:items-center">
-        <img src={'/assets/padrinhos-1.jpg'} className="w-64 md:w-128 rounded"/>
-      </div>
+      <p className="font-serif font-bold text-dark tracking-wider mb-4">
+      Com carinho,
+      </p>
+      <p className="font-serif font-cursive text-dark tracking-wider mb-4  text-3xl">
+      Vanessa e Victor
+      </p>
+     
 
     
     </div>

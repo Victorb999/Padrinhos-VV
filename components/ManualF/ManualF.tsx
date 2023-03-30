@@ -2,7 +2,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 export default function ManualF() {
   return (
-    <div className="w-full p-12">
+    <div className="w-full md:p-12">
       <h1 className="text-center font-cursive font-bold text-white tracking-wider text-3xl mb-2">
         Manual da madrinha
       </h1>
@@ -15,16 +15,18 @@ export default function ManualF() {
         Escolhemos a cor Lavanda e optamos por definir uma paleta com muito 
         carinho para que você escolha o seu tom preferido e arrase!
       </p>
-      <div className="w-full">
-        <img src={'/assets/madrinhas-1.jpg'} className="w-full rounded"/>
-
-        <div className="flex justify-around">
-          <div className="h-24 w-24 bg-purple"></div>
-          <div className="h-24 w-24 bg-lavanda-1"></div>
-          <div className="h-24 w-24 bg-lavanda-2"></div>
-          <div className="h-24 w-24 bg-lavanda-3"></div>
-          <div className="h-24 w-24 bg-purple-400"></div>
-          <div className="h-24 w-24 bg-lavanda-4"></div>
+      <div className="w-full md:flex md:justify-center md:flex-col md:items-center">
+        <img src={'/assets/madrinhas-1.jpg'} className="w-64 md:w-128 rounded"/>
+        <h1 className="text-center font-serif font-bold text-white tracking-wider text-xl my-4">
+          Palheta
+        </h1>
+        <div className="flex flex-row flex-wrap justify-center mt-4">
+          <div className="md:h-24 md:w-24 h-16 w-16 bg-purple"></div>
+          <div className="md:h-24 md:w-24 h-16 w-16 bg-lavanda-1"></div>
+          <div className="md:h-24 md:w-24 h-16 w-16 bg-lavanda-2"></div>
+          <div className="md:h-24 md:w-24 h-16 w-16 bg-lavanda-3"></div>
+          <div className="md:h-24 md:w-24 h-16 w-16 bg-purple-400"></div>
+          <div className="md:h-24 md:w-24 h-16 w-16 bg-lavanda-4"></div>
         </div>
       </div>
     </div>

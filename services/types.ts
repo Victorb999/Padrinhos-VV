@@ -15,3 +15,12 @@ export interface Groomsman {
 export interface Groomsmen {
   groomsmen: Groomsman[];
 }
+export interface Kid {
+  slug: string;
+  id: string;
+  members: Member[];
+}
+
+export interface Kids {
+  kids: Kid[];
+}

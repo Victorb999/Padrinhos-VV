@@ -1,0 +1,56 @@
+{
+  "kids": [
+    {
+      "slug": "davi",
+      "id": "1",
+      "members": [
+        {
+          "name": "Davi Márcio",
+          "id": "1",
+          "nickName": "Davi",
+          "image": "",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "slug": "murilo",
+      "id": "2",
+      "members": [
+        {
+          "name": "Murilo",
+          "id": "2",
+          "nickName": "Murilo",
+          "image": "",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "slug": "guilherme",
+      "id": "3",
+      "members": [
+        {
+          "name": "Guilherme",
+          "id": "3",
+          "nickName": "Guilherme",
+          "image": "",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "slug": "rebeca",
+      "id": "4",
+      "members": [
+        {
+          "name": "Rebeca",
+          "id": "4",
+          "nickName": "Rebeca",
+          "image": "",
+          "sex": "F"
+        }
+      ]
+    }
+  ]
+}

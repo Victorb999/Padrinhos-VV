@@ -44,7 +44,7 @@ export default async function Page() {
               <QRCode
                 size={400}
                 style={{ border: '5px solid #fff' }}
-                value={`https://padrinhos-vv.vercel.app/${kid.slug}`}
+                value={`https://padrinhos-vv.vercel.app/kids/${kid.slug}`}
                 viewBox={'0 0 300 400'}
               />
               <Link

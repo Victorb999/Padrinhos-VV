@@ -20,8 +20,7 @@ export default function ManualF() {
         <h1 className="text-center font-serif font-bold text-white tracking-wider text-xl my-4">
           Paleta
         </h1>
-        <div className="flex flex-row flex-wrap justify-center mt-4">
-          <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-1.svg'} />
+        <div className="flex flex-row flex-wrap justify-center mt-4">          
           <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-2.svg'} /> 
           <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-3.svg'} />
           <img className="md:h-24 md:w-24 h-16 w-16" src={'/assets/colors/lavander-4.svg'} />

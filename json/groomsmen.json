@@ -257,19 +257,6 @@
           "sex": "M"
         }
       ]
-    },
-    {
-      "slug": "mayara",
-      "id": "16",
-      "members": [
-        {
-          "name": "Mayara Isis",
-          "id": "25",
-          "nickName": "Mayara",
-          "image": "",
-          "sex": "F"
-        }
-      ]
     }
   ]
 }
